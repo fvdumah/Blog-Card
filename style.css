@@ -9,14 +9,42 @@
 
   img {
     display: block;
-    max-width: 100%;
+    max-width: 279px;
   }
 
   body 
   { 
+    background-color: #F4D04E;
+    color: #7F7F7F;
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
     font-family: "Figtree", sans-serif;
+    padding: 1.5em;
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #FFF;
+    padding: 1.5em;
+    gap: 1.5em;
+    border-radius: 20px;
+    border:  1px solid black;
+    filter: drop-shadow( .5rem .5rem #000000);
+  }
+
+  .author {
+    display: flex;
+    gap: .75rem;
+    align-items: center;
+    font-weight: 800;
+    color: #000000;
+    font-size: .875rem;
+  }
+
+  .author img {
+    max-width: 32px;
   }
