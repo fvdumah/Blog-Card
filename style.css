@@ -34,7 +34,7 @@
     justify-content: space-between;
     background-color: #FFF;
     padding: 1.5em;
-    gap: 1.5em;
+    gap: 1.5rem;
     border-radius: 20px;
     border:  1px solid black;
     filter: drop-shadow( .5rem .5rem #000000);
@@ -84,7 +84,7 @@
     body {
       font-size: 1rem;
     }
-    
+
     .publish-date {
         display: block;
     }
