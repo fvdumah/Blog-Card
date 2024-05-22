@@ -54,6 +54,7 @@
     border-radius: .25rem;
     padding: .33em 1em;
     display: inline-flex;
+    width: fit-content;
   }
 
   .publish-date {
